@@ -1,9 +1,7 @@
 {
-  "name": "telegram-signals",
-  "version": "1.0.0",
+  "name": "trading-signal-background-runner",
+  "private": true,
   "type": "module",
-  "scripts": {
-    "start": "node runner.mjs"
-  },
-  "dependencies": {}
+  "scripts": { "monitor": "node monitor/runner.mjs" },
+  "dependencies": { "@playwright/test": "^1.55.0" }
 }
